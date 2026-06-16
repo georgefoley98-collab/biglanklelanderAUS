@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Anklet That Was Actually Made To Fit | AMORA</title>
+<meta name="description" content="Most anklets don't fit fuller ankles. This one was designed to — adjustable up to 26cm, tarnish-proof, and made to be worn every day.">
+
+<!-- ===== Meta Pixel ===== -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '973568998330268');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=973568998330268&ev=PageView&noscript=1"/></noscript>
+<!-- ===== End Meta Pixel ===== -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --cream:#FDFAF5;
+    --cream-deep:#F5F0E8;
+    --sage:#EAEDE6;
+    --navy:#3E5247;          /* deepened brand green for high-contrast blocks */
+    --navy-soft:#4F6658;     /* true AMORA brand green */
+    --green-accent:#4F8062;  /* secondary brand green */
+    --gold:#B79D6E;          /* exact AMORA gold */
+    --gold-light:#CBB488;
+    --ink:#2A2A2A;
+    --grey:#6A6A6A;
+    --line:#E3DACA;
+    --white:#FFFFFF;
+    --radius:14px;
+    --maxw:680px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:'Inter',sans-serif;
+    background:var(--cream);
+    color:var(--ink);
+    line-height:1.65;
+    font-size:17px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--maxw);margin:0 auto;background:var(--white);}
+  img{max-width:100%;display:block;}
+
+  /* ===== Announcement bar ===== */
+  .announce{
+    background:var(--navy);color:#fff;text-align:center;
+    font-size:13px;letter-spacing:.04em;font-weight:500;
+    padding:10px 16px;overflow:hidden;white-space:nowrap;
+  }
+  .announce span{display:inline-block;animation:ticker 18s linear infinite;}
+  .announce b{color:var(--gold-light);font-weight:600;}
+  @keyframes ticker{
+    0%{transform:translateX(0);}
+    33%{transform:translateX(0);}
+    100%{transform:translateX(0);}
+  }
+
+  /* ===== Editorial header ===== */
+  .masthead{
+    background:var(--cream);text-align:center;
+    padding:22px 20px 16px;border-bottom:1px solid var(--line);
+  }
+  .logo{
+    font-family:'Playfair Display',serif;font-weight:700;
+    font-size:30px;letter-spacing:.22em;color:var(--navy);
+    text-indent:.22em;
+  }
+  .cat-tag{
+    margin-top:8px;font-size:11px;letter-spacing:.22em;
+    color:var(--gold);font-weight:600;text-transform:uppercase;
+  }
+
+  /* ===== Article head ===== */
+  .article{padding:30px 24px 0;}
+  h1.headline{
+    font-family:'Playfair Display',serif;
+    font-weight:700;font-size:33px;line-height:1.18;
+    color:var(--navy);letter-spacing:-.01em;
+  }
+  h1.headline em{font-style:italic;color:var(--gold);}
+  .subhead{
+    margin-top:14px;font-size:18px;color:var(--grey);
+    line-height:1.55;font-weight:400;
+  }
+  .byline{
+    display:flex;align-items:center;gap:11px;
+    margin:22px 0 6px;padding-bottom:20px;
+    border-bottom:1px solid var(--line);
+  }
+  .byline img{
+    width:42px;height:42px;border-radius:50%;object-fit:cover;
+    background:var(--cream-deep);
+  }
+  .byline .who{font-size:13px;line-height:1.4;}
+  .byline .who b{color:var(--navy);font-weight:600;}
+  .byline .who span{color:var(--grey);}
+
+  /* ===== Hero image w/ stacked badges ===== */
+  .hero{position:relative;margin:22px 0 6px;border-radius:var(--radius);overflow:hidden;background:var(--cream-deep);}
+  .hero img{width:100%;aspect-ratio:4/5;object-fit:cover;}
+  .hero-badges{
+    position:absolute;top:14px;left:14px;
+    display:flex;flex-direction:column;gap:8px;
+  }
+  .hbadge{
+    background:rgba(62,82,71,.92);color:#fff;
+    font-size:12px;font-weight:600;letter-spacing:.02em;
+    padding:7px 12px;border-radius:8px;backdrop-filter:blur(3px);
+    display:flex;align-items:center;gap:6px;
+  }
+  .img-caption{font-size:12.5px;color:var(--grey);font-style:italic;text-align:center;padding:10px 8px 0;}
+
+  /* ===== Body copy ===== */
+  .body-copy{padding:8px 24px 0;}
+  .body-copy p{margin:18px 0;font-size:17px;color:var(--ink);}
+  .body-copy p.lead:first-letter{
+    font-family:'Playfair Display',serif;
+    font-size:52px;float:left;line-height:.82;
+    margin:6px 10px 0 0;color:var(--navy);font-weight:700;
+  }
+  .body-copy strong{color:var(--navy);font-weight:600;}
+  .pull{
+    font-family:'Playfair Display',serif;font-style:italic;
+    font-size:23px;line-height:1.4;color:var(--navy);
+    border-left:3px solid var(--gold);
+    padding:6px 0 6px 20px;margin:26px 0;
+  }
+
+  /* ===== Reasons ===== */
+  .reason{padding:26px 24px 0;}
+  .reason-num{
+    font-family:'Playfair Display',serif;font-size:15px;
+    color:var(--gold);font-weight:700;letter-spacing:.14em;
+    text-transform:uppercase;margin-bottom:6px;
+  }
+  .reason h2{
+    font-family:'Playfair Display',serif;font-weight:600;
+    font-size:25px;line-height:1.25;color:var(--navy);margin-bottom:10px;
+  }
+  .reason p{font-size:16.5px;color:var(--ink);margin:14px 0;}
+
+  /* ===== Fit diagram section ===== */
+  .fit-section{
+    background:var(--cream);margin:30px 0 0;padding:30px 24px;
+    border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  }
+  .fit-section h2{
+    font-family:'Playfair Display',serif;font-weight:600;
+    font-size:24px;color:var(--navy);text-align:center;line-height:1.3;
+  }
+  .fit-section .fit-sub{
+    text-align:center;color:var(--grey);font-size:15px;
+    margin:8px 0 20px;max-width:440px;margin-left:auto;margin-right:auto;
+  }
+  .fit-diagram{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);background:#fff;}
+  .fit-diagram img{width:100%;}
+  .fit-spec{
+    display:flex;justify-content:center;gap:24px;flex-wrap:wrap;
+    margin-top:20px;
+  }
+  .fit-spec div{text-align:center;}
+  .fit-spec .big{
+    font-family:'Playfair Display',serif;font-size:26px;
+    color:var(--navy);font-weight:700;
+  }
+  .fit-spec .lbl{font-size:12px;color:var(--grey);letter-spacing:.04em;text-transform:uppercase;margin-top:2px;}
+
+  /* ===== Offer block ===== */
+  .offer{
+    background:var(--navy);color:#fff;margin:32px 0 0;
+    padding:34px 26px;text-align:center;
+  }
+  .offer .kicker{
+    font-size:12px;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--gold-light);font-weight:600;
+  }
+  .offer h2{
+    font-family:'Playfair Display',serif;font-weight:700;
+    font-size:27px;line-height:1.25;margin:10px 0 8px;
+  }
+  .offer .price-row{
+    display:flex;align-items:baseline;justify-content:center;gap:12px;margin:18px 0 6px;
+  }
+  .offer .was{font-size:19px;color:#a7b3ab;text-decoration:line-through;}
+  .offer .now{font-family:'Playfair Display',serif;font-size:40px;font-weight:700;color:#fff;}
+  .offer .save{
+    display:inline-block;background:var(--gold);color:var(--navy);
+    font-size:13px;font-weight:700;padding:4px 12px;border-radius:20px;
+    letter-spacing:.03em;margin-bottom:18px;
+  }
+  .offer ul{list-style:none;text-align:left;max-width:330px;margin:0 auto 8px;}
+  .offer ul li{
+    font-size:15px;padding:7px 0 7px 28px;position:relative;color:#eaf0fa;
+    border-bottom:1px solid rgba(255,255,255,.08);
+  }
+  .offer ul li:before{
+    content:"✓";position:absolute;left:0;color:var(--gold-light);font-weight:700;
+  }
+
+  /* ===== CTA buttons ===== */
+  .cta-btn{
+    display:inline-block;background:var(--gold);color:var(--navy);
+    font-weight:700;font-size:17px;letter-spacing:.01em;
+    padding:17px 34px;border-radius:50px;text-decoration:none;
+    transition:transform .15s ease, background .2s ease;
+    box-shadow:0 6px 18px rgba(176,141,71,.32);
+  }
+  .cta-btn:hover{transform:translateY(-2px);background:var(--gold-light);}
+  .cta-btn-wide{display:block;width:100%;text-align:center;}
+  .cta-area{padding:28px 24px;text-align:center;}
+  .cta-reassure{font-size:13px;color:var(--grey);margin-top:12px;}
+
+  /* ===== Social proof / reviews ===== */
+  .reviews{padding:30px 24px 0;}
+  .reviews h2{
+    font-family:'Playfair Display',serif;font-weight:600;
+    font-size:23px;color:var(--navy);text-align:center;margin-bottom:6px;
+  }
+  .stars-line{text-align:center;color:var(--gold);font-size:15px;margin-bottom:22px;}
+  .stars-line b{color:var(--navy);}
+  .review-card{
+    background:var(--cream);border:1px solid var(--line);
+    border-radius:var(--radius);padding:18px 18px 16px;margin-bottom:14px;
+  }
+  .review-card .rc-top{display:flex;align-items:center;gap:11px;margin-bottom:9px;}
+  .review-card .rc-av{
+    width:38px;height:38px;border-radius:50%;background:var(--cream-deep);
+    object-fit:cover;flex-shrink:0;
+  }
+  .review-card .rc-name{font-size:14px;font-weight:600;color:var(--navy);}
+  .review-card .rc-stars{color:var(--gold);font-size:12px;letter-spacing:1px;}
+  .review-card .rc-verified{font-size:11px;color:#3a9e6a;font-weight:600;}
+  .review-card p{font-size:15px;color:var(--ink);line-height:1.55;}
+
+  /* ===== Trust pills ===== */
+  .trust-pills{
+    display:flex;justify-content:center;gap:10px;flex-wrap:wrap;
+    padding:26px 20px;background:var(--cream);margin-top:28px;border-top:1px solid var(--line);
+  }
+  .tpill{
+    font-size:12.5px;color:var(--navy);font-weight:600;
+    display:flex;align-items:center;gap:6px;
+  }
+
+  /* ===== Footer ===== */
+  .foot{background:var(--navy);color:#b9c4bc;text-align:center;padding:26px 20px;}
+  .foot .flogo{
+    font-family:'Playfair Display',serif;font-weight:700;font-size:20px;
+    letter-spacing:.2em;color:#fff;text-indent:.2em;margin-bottom:8px;
+  }
+  .foot p{font-size:12px;line-height:1.6;}
+  .foot .disc{margin-top:10px;font-size:11px;color:#8a958d;max-width:520px;margin-left:auto;margin-right:auto;}
+
+  /* scroll-top */
+  .scroll-top{
+    position:fixed;bottom:20px;right:20px;width:46px;height:46px;
+    background:var(--navy);color:#fff;border:none;border-radius:50%;
+    font-size:20px;cursor:pointer;opacity:0;pointer-events:none;
+    transition:opacity .25s ease;z-index:50;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  }
+  .scroll-top.visible{opacity:1;pointer-events:auto;}
+
+  @media (max-width:560px){
+    body{font-size:16px;}
+    h1.headline{font-size:28px;}
+    .reason h2{font-size:22px;}
+    .offer .now{font-size:34px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- Announcement bar -->
+  <div class="announce">
+    <span>✨ FREE 14k Gold Bracelet With Every Order &nbsp;·&nbsp; <b>This Week Only</b> &nbsp;·&nbsp; Free Tracked Delivery 🤍</span>
+  </div>
+
+  <!-- Masthead -->
+  <div class="masthead">
+    <div class="logo">AMORA</div>
+    <div class="cat-tag">Style · Jewellery Review</div>
+  </div>
+
+  <!-- Article -->
+  <div class="article">
+    <h1 class="headline">The anklet that was <em>actually made to fit.</em></h1>
+    <p class="subhead">If you've ever ordered an anklet that wouldn't close — or sat so tight it left a mark — you already know the problem. This one was designed differently.</p>
+
+    <div class="byline">
+      <!-- IMAGE: author-jess.jpg -->
+      <img src="images/author-jess.jpg" alt="Jess Harper">
+      <div class="who">
+        <b>By Jess Harper</b><br>
+        <span>Style Editor · Updated this week</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <div class="article">
+    <div class="hero">
+      <!-- IMAGE: hero-on-ankle.jpg -->
+      <img src="images/hero-on-ankle.jpg" alt="AMORA anklet shown on a fuller ankle, sitting comfortably">
+      <div class="hero-badges">
+        <div class="hbadge">📐 Fits up to 26cm</div>
+        <div class="hbadge">💧 Won't turn skin green</div>
+        <div class="hbadge">🤍 Free bracelet included</div>
+      </div>
+    </div>
+    <div class="img-caption">The AMORA Anklet, shown on a fuller ankle — adjustable extender lets it sit comfortably, never tight.</div>
+  </div>
+
+  <!-- Body copy -->
+  <div class="body-copy">
+    <p class="lead">Here's something the jewellery brands don't like to talk about: most anklets are made to one size, and it's rarely <em>yours</em>.</p>
+
+    <p>If you've got fuller ankles, you'll know the routine. You find an anklet you love. It arrives. And it either won't fasten at all, or it does — barely — and spends the whole day digging in and leaving that little red line you can't wait to get home and release.</p>
+
+    <p>So you stop trying. You decide anklets just "aren't for you." Except they were never the problem. <strong>The sizing was.</strong></p>
+
+    <div class="pull">"For the first time, I didn't have to force the clasp. It just… fit. And it looked beautiful."</div>
+
+    <p>The AMORA Anklet was designed with a genuinely generous, multi-slot extender — so it adjusts smoothly <strong>up to 26cm</strong> and sits comfortably on a fuller ankle without pinching. Not "one size and hope." A fit you actually choose.</p>
+
+    <p>And because it's made from <strong>316L surgical-grade stainless steel</strong> — the same metal used in medical implants — it won't tarnish, won't fade, and won't turn your skin green. You can wear it in the shower, at the beach, to bed. Every day. It stays exactly as it is.</p>
+  </div>
+
+  <!-- First CTA -->
+  <div class="cta-area">
+    <a href="https://www.amorakeepsakes.com/products/amora-ankle-chain" class="cta-btn cta-btn-wide" onclick="fbq('track', 'ViewContent', {content_name: 'Pre-Lander CTA - Hero'});">Shop The Anklet →</a>
+    <div class="cta-reassure">A$49.99 · Free 14k bracelet · 30-day guarantee</div>
+  </div>
+
+  <!-- Reason 1 -->
+  <div class="reason">
+    <div class="reason-num">Reason One</div>
+    <h2>An adjustable fit — designed for real ankles</h2>
+    <p>The multi-slot extender means you set the fit, not the factory. Slide it to the first link for a closer fit, or the last for a relaxed drape — comfortable all the way up to 26cm. No more forcing a clasp or going without.</p>
+  </div>
+
+  <!-- Fit diagram section -->
+  <div class="fit-section">
+    <h2>How to get your perfect fit</h2>
+    <p class="fit-sub">Four seconds, no tools. The extender chain does the work — choose the slot that feels right for you.</p>
+    <div class="fit-diagram">
+      <!-- IMAGE: fit-guide.jpg  (the 4-step how-to diagram) -->
+      <img src="images/fit-guide.jpg" alt="Four-step guide: hold each end, wrap around, clip into desired slot, ready to wear">
+    </div>
+    <div class="fit-spec">
+      <div><div class="big">Up to 26cm</div><div class="lbl">Adjustable range</div></div>
+      <div><div class="big">Multi-slot</div><div class="lbl">Extender chain</div></div>
+      <div><div class="big">316L steel</div><div class="lbl">Tarnish-proof</div></div>
+    </div>
+  </div>
+
+  <!-- Reason 2 -->
+  <div class="reason">
+    <div class="reason-num">Reason Two</div>
+    <h2>It won't turn your skin green. Ever.</h2>
+    <p>Cheap anklets are brass, copper or zinc — they oxidise and react with skin, water and sunscreen. That's why they go green. It's physics, not bad luck. AMORA uses 316L surgical-grade stainless steel, so it simply can't. Shower in it, swim in it, sleep in it.</p>
+  </div>
+
+  <!-- Reason 3 -->
+  <div class="reason">
+    <div class="reason-num">Reason Three</div>
+    <h2>Looks far more expensive than it is</h2>
+    <p>The textured chain catches the light the way fine jewellery does. People notice it. They ask where it's from. And the best part is your answer — a lot less than they'd ever guess.</p>
+  </div>
+
+  <!-- Offer block -->
+  <div class="offer">
+    <div class="kicker">This Week Only</div>
+    <h2>Your Anklet + A Free 14k Gold Bracelet</h2>
+    <div class="price-row">
+      <span class="was">A$69.99</span>
+      <span class="now">A$49.99</span>
+    </div>
+    <div class="save">You save A$20</div>
+    <ul>
+      <li>Adjustable fit — comfortable up to 26cm</li>
+      <li>316L steel — tarnish-proof &amp; skin-safe</li>
+      <li>Free 14k gold bracelet, auto-added at checkout</li>
+      <li>Free tracked delivery, Australia-wide</li>
+      <li>30-day money-back guarantee</li>
+    </ul>
+    <div style="margin-top:22px;">
+      <a href="https://www.amorakeepsakes.com/products/amora-ankle-chain" class="cta-btn" onclick="fbq('track', 'ViewContent', {content_name: 'Pre-Lander CTA - Offer Block'});">Claim My Free Bracelet →</a>
+    </div>
+  </div>
+
+  <!-- Reviews -->
+  <div class="reviews">
+    <h2>What women are saying</h2>
+    <div class="stars-line">★★★★★ &nbsp;<b>4.8</b> · Loved by 2,400+ customers</div>
+
+    <div class="review-card">
+      <div class="rc-top">
+        <!-- IMAGE: review-1.jpg -->
+        <img src="images/review-1.jpg" alt="" class="rc-av">
+        <div>
+          <div class="rc-name">Denise M. &nbsp;<span class="rc-verified">✔ Verified</span></div>
+          <div class="rc-stars">★★★★★</div>
+        </div>
+      </div>
+      <p>"I've got wider ankles and I'd honestly given up on anklets — they never fastened. This one fits perfectly with the extender and doesn't dig in at all. First one I've worn all summer."</p>
+    </div>
+
+    <div class="review-card">
+      <div class="rc-top">
+        <!-- IMAGE: review-2.jpg -->
+        <img src="images/review-2.jpg" alt="" class="rc-av">
+        <div>
+          <div class="rc-name">Sharon T. &nbsp;<span class="rc-verified">✔ Verified</span></div>
+          <div class="rc-stars">★★★★★</div>
+        </div>
+      </div>
+      <p>"Finally — an anklet that doesn't leave a mark. Comfortable all day, still looks brand new after weeks of wearing it in the shower. Can't recommend it enough."</p>
+    </div>
+
+    <div class="review-card">
+      <div class="rc-top">
+        <!-- IMAGE: review-3.jpg -->
+        <img src="images/review-3.jpg" alt="" class="rc-av">
+        <div>
+          <div class="rc-name">Pauline R. &nbsp;<span class="rc-verified">✔ Verified</span></div>
+          <div class="rc-stars">★★★★☆</div>
+        </div>
+      </div>
+      <p>"Lovely anklet and the extender makes all the difference for me. Took one star off only because I wish I'd bought two. The free bracelet was a lovely surprise too."</p>
+    </div>
+  </div>
+
+  <!-- Trust pills -->
+  <div class="trust-pills">
+    <div class="tpill">💧 Waterproof</div>
+    <div class="tpill">🚫 Won't tarnish</div>
+    <div class="tpill">📐 Adjustable to 26cm</div>
+    <div class="tpill">↩️ 30-day guarantee</div>
+  </div>
+
+  <!-- Final CTA -->
+  <div class="cta-area">
+    <a href="https://www.amorakeepsakes.com/products/amora-ankle-chain" class="cta-btn cta-btn-wide" style="margin-top:8px;" onclick="fbq('track', 'ViewContent', {content_name: 'Pre-Lander CTA - Final'});">Shop The Anklet →</a>
+    <div class="cta-reassure">Free 14k bracelet included · Free tracked delivery · 30-day money-back guarantee</div>
+  </div>
+
+  <!-- Footer -->
+  <div class="foot">
+    <div class="flogo">AMORA</div>
+    <p>© AMORA Keepsakes. All rights reserved.</p>
+    <p class="disc">This is an advertorial. Results and experiences may vary. AMORA jewellery is made from 316L stainless steel.</p>
+  </div>
+
+</div>
+
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+  // UTM passthrough to all CTA links
+  (function(){
+    var params = window.location.search;
+    if(params){
+      document.querySelectorAll('a.cta-btn').forEach(function(a){
+        try{
+          var url = new URL(a.href);
+          if(url.hostname.indexOf('amorakeepsakes.com') !== -1){
+            a.href = a.href + (a.href.indexOf('?')>-1 ? '&' : '?') + params.substring(1);
+          }
+        }catch(e){}
+      });
+    }
+  })();
+
+  // Scroll-to-top button
+  var scrollBtn = document.getElementById('scrollTop');
+  window.addEventListener('scroll', function(){
+    scrollBtn.classList.toggle('visible', window.scrollY > 500);
+  });
+</script>
+</body>
+</html>
